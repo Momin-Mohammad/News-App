@@ -36,7 +36,7 @@ export default function NewsCard({ele}){
         
         <div onClick={()=> navigate(`/news/${ele.title}`)} className={styles.NewsCardDiv}>
             
-            <img src={ele.urlToImage} />
+            <img src={ele.image} />
             <h3>{ele.title}</h3>
             <p>{ele.description}</p>
         </div>

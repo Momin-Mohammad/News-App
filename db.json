@@ -4,66 +4,37 @@
       "name": "Mohammad Momin",
       "email": "momin@gmail.com",
       "password": "momin123",
-      "favouriteNews": [
-        {
-          "source": {
-            "id": "engadget",
-            "name": "Engadget"
-          },
-          "author": "Kris Holt",
-          "title": "Facebook and Instagram’s news blackout in Canada starts today",
-          "description": "As promised, Meta\r\n has begun blocking news content in Canada. Starting today, Facebook\r\n and Instagram\r\n users in the country will no longer be able to view or share news links or see videos and photos posted by publishers and broadcasters. The company, whic…",
-          "url": "https://www.engadget.com/facebook-and-instagrams-news-blackout-in-canada-starts-today-182139785.html",
-          "urlToImage": "https://s.yimg.com/uu/api/res/1.2/g3m1MzFQ57pEF202yXffSQ--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-images/2020-02/57b39e80-4ec3-11ea-bdbc-bf356bea768e.cf.jpg",
-          "publishedAt": "2023-08-01T18:21:39Z",
-          "content": "As promised, Meta\r\n has begun blocking news content in Canada. Starting today, Facebook\r\n and Instagram\r\n users in the country will no longer be able to view or share news links or see videos and pho… [+1502 chars]"
-        },
-        {
-          "source": {
-            "id": "engadget",
-            "name": "Engadget"
-          },
-          "author": "Mariella Moon",
-          "title": "Google is reportedly testing an AI tool that can generate news articles",
-          "description": "Google is testing a new AI technology codenamed \"Genesis\" that can generate news articles, according to The New York Times. The tech giant has reportedly demonstrated the tool not just for The Times, but also for executives at The Washington Post and News Cor…",
-          "url": "https://www.engadget.com/google-is-reportedly-testing-an-ai-tool-that-can-generate-news-articles-054602544.html",
-          "urlToImage": "https://s.yimg.com/uu/api/res/1.2/bYdQJFcdoqTuE_102ynQew--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2023-07/f2a5e070-26b4-11ee-bffb-655df49b92b8.cf.jpg",
-          "publishedAt": "2023-07-20T05:46:02Z",
-          "content": "Google is testing a new AI technology codenamed \"Genesis\" that can generate news articles, according to The New York Times. The tech giant has reportedly demonstrated the tool not just for The Times,… [+1682 chars]"
-        }
-      ],
+      "favouriteNews": [],
       "id": 1
     },
     {
-      "name": "Anny Memon",
+      "name": "Anis Memon",
       "email": "anny@gmail.com",
       "password": "anny123",
       "favouriteNews": [
         {
+          "title": "Monu Manesar On Haryana Nuh Violence At Abp News Exclusive",
+          "description": "Gurugram Violence: हरियाणा के नूंह जिले में वीएचपी की धार्मिक यात्रा के दौरान हिंसा भड़की थी जो गुरुग्राम तक पहुंच गई. मोनू मानेसर पर हिंसा को भड़काने का आरोप लगाया जा रहा है.",
+          "content": "Monu Manesar Exclusive On Nuh Violence: हरियाणा हिंसा को लेकर एक नाम पिछले 4 दिन से चर्चा में है. ये नाम है मोनू मानेसर का. इल्जाम है कि सोशल मीडिया पर पोस्ट उसके एक वीडियो ने मेवात में आग लगा दी. हिंसा नूंह से शुरू हुई और इसने पलवल के साथ-साथ साइबर ... [2030 chars]",
+          "url": "https://www.abplive.com/news/india/monu-manesar-on-haryana-nuh-violence-at-abp-news-exclusive-2465617",
+          "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2023/08/02/dd89d7e8620110b77c1414197503004c1690990788359432_original.jpg?impolicy=abp_cdn&imwidth=1200&imheight=628",
+          "publishedAt": "2023-08-02T15:40:42Z",
           "source": {
-            "id": "engadget",
-            "name": "Engadget"
-          },
-          "author": "Kris Holt",
-          "title": "Facebook and Instagram’s news blackout in Canada starts today",
-          "description": "As promised, Meta\r\n has begun blocking news content in Canada. Starting today, Facebook\r\n and Instagram\r\n users in the country will no longer be able to view or share news links or see videos and photos posted by publishers and broadcasters. The company, whic…",
-          "url": "https://www.engadget.com/facebook-and-instagrams-news-blackout-in-canada-starts-today-182139785.html",
-          "urlToImage": "https://s.yimg.com/uu/api/res/1.2/g3m1MzFQ57pEF202yXffSQ--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-images/2020-02/57b39e80-4ec3-11ea-bdbc-bf356bea768e.cf.jpg",
-          "publishedAt": "2023-08-01T18:21:39Z",
-          "content": "As promised, Meta\r\n has begun blocking news content in Canada. Starting today, Facebook\r\n and Instagram\r\n users in the country will no longer be able to view or share news links or see videos and pho… [+1502 chars]"
+            "name": "ABP News",
+            "url": "https://www.abplive.com"
+          }
         },
         {
+          "title": "Haryana Forms Three-member Panel to Look into Social Media Activity Before Nuh Violence",
+          "description": "Haryana home minister Anil Vij promised strict action against those responsible for violence in Nuh; committee to look into posts and videos on social media from July 21 take appropriate action; latest news on news18.com; Swati Bhan",
+          "content": "The Haryana government on Wednesday said it was setting up a three-member committee to look into social media activity in the run-up to the Nuh violence. State home minister Anil Vij said social media played a significant role in fuelling the violenc... [2570 chars]",
+          "url": "https://www.news18.com/politics/haryana-forms-three-member-panel-to-look-into-social-media-activity-before-nuh-violence-8490337.html",
+          "image": "https://images.news18.com/ibnlive/uploads/2023/08/nuh-haryana-violence-clash11-1-169091110616x9.jpg",
+          "publishedAt": "2023-08-02T15:12:22Z",
           "source": {
-            "id": "engadget",
-            "name": "Engadget"
-          },
-          "author": "Mariella Moon",
-          "title": "Google is reportedly testing an AI tool that can generate news articles",
-          "description": "Google is testing a new AI technology codenamed \"Genesis\" that can generate news articles, according to The New York Times. The tech giant has reportedly demonstrated the tool not just for The Times, but also for executives at The Washington Post and News Cor…",
-          "url": "https://www.engadget.com/google-is-reportedly-testing-an-ai-tool-that-can-generate-news-articles-054602544.html",
-          "urlToImage": "https://s.yimg.com/uu/api/res/1.2/bYdQJFcdoqTuE_102ynQew--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2023-07/f2a5e070-26b4-11ee-bffb-655df49b92b8.cf.jpg",
-          "publishedAt": "2023-07-20T05:46:02Z",
-          "content": "Google is testing a new AI technology codenamed \"Genesis\" that can generate news articles, according to The New York Times. The tech giant has reportedly demonstrated the tool not just for The Times,… [+1682 chars]"
+            "name": "News18",
+            "url": "https://www.news18.com"
+          }
         }
       ],
       "id": 2

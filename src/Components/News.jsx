@@ -20,10 +20,10 @@ export default function News(){
                 isLoading?
                 <h2 style={{color:"whitesmoke",textAlign:"center"}}>Loading...</h2>
                 :
-                filterNews?.map((ele)=>
-                <div className={styles.News_NewsDiv}>
+                filterNews?.map((ele,index)=>
+                <div key={index} className={styles.News_NewsDiv}>
                     <div>
-                    <img src={ele.urlToImage} alt="news image" />
+                    <img src={ele.image} alt="news image" />
                     </div>
                     <h1>{ele.title}</h1>
                     <p>{ele.description}</p>

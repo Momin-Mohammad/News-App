@@ -18,7 +18,6 @@ export const newsReducer = (state=initialState,action)=>{
         }
 
         case newsSucc :{
-            console.log("news:",action.payload)
             return{
                 ...state,
                 isError : false,
