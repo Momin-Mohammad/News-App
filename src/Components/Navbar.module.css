@@ -1,0 +1,24 @@
+.Navbar_mainDiv{
+    background-color: rgb(250, 156, 151);
+    padding: 0% 2%;
+    display : flex;
+    justify-content: flex-end;
+    gap: 4%;
+    align-items: center;
+}
+
+h3{
+    text-decoration: none;
+    color:black;
+}
+
+.Navbar_userDiv{
+    padding: 2%;
+}
+
+.Navbar_userDiv > button{
+    padding: 1%;
+    color: white;
+    font-weight: 600;
+    background-color: brown;
+}
