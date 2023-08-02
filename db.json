@@ -11,13 +11,6 @@
       "email": "anny@gmail.com",
       "password": "anny123",
       "id": 2
-    },
-    {
-      "name": "Afghan Shaikh",
-      "email": "afghan@gmail.com",
-      "password": "afghan123",
-      "id": 7
     }
-  ],
-  "news": []
+  ]
 }

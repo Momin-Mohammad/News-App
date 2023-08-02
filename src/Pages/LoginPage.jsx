@@ -35,7 +35,7 @@ export default function LoginPage(){
     return(
         <div className={styles.SignupPage_mainDiv}>
             <form onSubmit={loginUser}>
-                <h2>Login</h2>
+                <h1>Login</h1>
                 <input required onChange={(e)=>setEmail(e.target.value)} type="email" placeholder="Enter Email" />
                 <input required onChange={(e)=>setPassword(e.target.value)} type="password" placeholder="Enter Password" />
                 <input type="submit" value="Login" />

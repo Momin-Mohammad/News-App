@@ -1,0 +1,24 @@
+.News_mainDiv{
+    padding: 5%;
+    text-align: start;
+    color: whitesmoke;
+}
+
+.News_NewsDiv > div{
+    width: 60%;
+    margin: auto;
+}
+
+.News_NewsDiv > h1{
+    color: tomato;
+}
+
+.News_NewsDiv > p{
+    font-size: 20px;
+}
+
+.News_NewsDiv > a{
+    text-decoration: none;
+    color: red;
+}
+

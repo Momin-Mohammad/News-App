@@ -1,0 +1,19 @@
+.NewsCardDiv{
+    color: white;
+}
+
+img{
+    width: 100%;
+}
+
+.NewsCardDiv > h3{
+    color:tomato;
+}
+
+.NewsCard_likeIcon{
+    text-align: left;
+    font-size: large;
+    margin-bottom: 10px;
+    color:red;
+    cursor: pointer;
+}

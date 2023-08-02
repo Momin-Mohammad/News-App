@@ -1,4 +1,11 @@
 .Dashboard_mainDiv{
     width:100%;
-    display: flex;
+    color: white;
+}
+
+.Dashbord_NewsDiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 3%;
+    padding:3%;
 }

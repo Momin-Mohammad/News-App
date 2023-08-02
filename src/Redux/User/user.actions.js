@@ -21,7 +21,9 @@ export const signupAction = (userData)=>()=>{
 }
 
 export const loginAction = (user)=>(dispatch)=>{
+    localStorage.setItem("userLoggedIn",user);
     dispatch({type:loginSucc,payload:user});
+    window.location.assign("/");
 }
 
 export const removeUserAction = ()=>(dispatch)=>{

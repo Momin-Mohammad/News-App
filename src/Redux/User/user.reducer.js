@@ -18,7 +18,7 @@ export const userReducer = (state=initState,action)=>{
         }
 
         case getAllUsersFailure : {
-            alert("Error Loading Users Info" )
+            alert("Please check if server is running" )
             return{
                 ...state,
                 isError : true

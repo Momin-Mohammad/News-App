@@ -1,11 +1,11 @@
 import axios from "axios";
-import { postRej, postSucc } from "./news.types"
-import { url } from "../../utils";
+import { newsAPI } from "../../utils";
+import { newsRej, newsReq, newsSucc } from "./news.types";
 
 export const getNewsAction = ()=>(dispatch)=>{
-
-    axios.get(`${url}/news`)
+    dispatch({type:newsReq});
+    axios.get(newsAPI)
     .then(res=>
-        dispatch({type:newsSucc,payload:res.data})
+        dispatch({type:newsSucc,payload:res.data.articles})
         ).catch(err=>dispatch({type:newsRej}))
 }

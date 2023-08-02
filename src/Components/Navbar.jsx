@@ -4,10 +4,11 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { removeUserAction } from "../Redux/User/user.actions";
 export default function Navbar(){
-    const user = useSelector(store=>store.userReducer.userLoggedIn);
+    const user = localStorage.getItem("userLoggedIn");
     const dispatch = useDispatch();
-
+    
     const logoutUser = ()=>{
+        localStorage.removeItem("userLoggedIn")
         dispatch(removeUserAction);
         window.location.assign("/login");
     }
