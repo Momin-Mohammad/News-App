@@ -24,3 +24,19 @@ h3{
     font-weight: 600;
     background-color: brown;
 }
+
+@media only screen and (max-width:700px){
+    .Navbar_mainDiv{
+        font-size: small;
+    }
+
+    .Navbar_userDiv > button{
+        font-size: smaller;
+    }
+}
+
+@media only screen and (max-width:380px){
+    .Navbar_mainDiv{
+        font-size: xx-small;
+    }
+}

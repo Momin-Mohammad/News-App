@@ -16,7 +16,7 @@ export default function LoginPage(){
         if(findUser.length){
             if(findUser[0]?.password === password){
                 localStorage.setItem("userLoggedIn",findUser[0]?.name)
-                dispatch(loginAction(findUser[0]?.name));
+                dispatch(loginAction(findUser[0]));
             }else{
                 alert("Wrong Password");
                 setPassword("");

@@ -4,12 +4,68 @@
       "name": "Mohammad Momin",
       "email": "momin@gmail.com",
       "password": "momin123",
+      "favouriteNews": [
+        {
+          "source": {
+            "id": "engadget",
+            "name": "Engadget"
+          },
+          "author": "Kris Holt",
+          "title": "Facebook and Instagram’s news blackout in Canada starts today",
+          "description": "As promised, Meta\r\n has begun blocking news content in Canada. Starting today, Facebook\r\n and Instagram\r\n users in the country will no longer be able to view or share news links or see videos and photos posted by publishers and broadcasters. The company, whic…",
+          "url": "https://www.engadget.com/facebook-and-instagrams-news-blackout-in-canada-starts-today-182139785.html",
+          "urlToImage": "https://s.yimg.com/uu/api/res/1.2/g3m1MzFQ57pEF202yXffSQ--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-images/2020-02/57b39e80-4ec3-11ea-bdbc-bf356bea768e.cf.jpg",
+          "publishedAt": "2023-08-01T18:21:39Z",
+          "content": "As promised, Meta\r\n has begun blocking news content in Canada. Starting today, Facebook\r\n and Instagram\r\n users in the country will no longer be able to view or share news links or see videos and pho… [+1502 chars]"
+        },
+        {
+          "source": {
+            "id": "engadget",
+            "name": "Engadget"
+          },
+          "author": "Mariella Moon",
+          "title": "Google is reportedly testing an AI tool that can generate news articles",
+          "description": "Google is testing a new AI technology codenamed \"Genesis\" that can generate news articles, according to The New York Times. The tech giant has reportedly demonstrated the tool not just for The Times, but also for executives at The Washington Post and News Cor…",
+          "url": "https://www.engadget.com/google-is-reportedly-testing-an-ai-tool-that-can-generate-news-articles-054602544.html",
+          "urlToImage": "https://s.yimg.com/uu/api/res/1.2/bYdQJFcdoqTuE_102ynQew--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2023-07/f2a5e070-26b4-11ee-bffb-655df49b92b8.cf.jpg",
+          "publishedAt": "2023-07-20T05:46:02Z",
+          "content": "Google is testing a new AI technology codenamed \"Genesis\" that can generate news articles, according to The New York Times. The tech giant has reportedly demonstrated the tool not just for The Times,… [+1682 chars]"
+        }
+      ],
       "id": 1
     },
     {
       "name": "Anny Memon",
       "email": "anny@gmail.com",
       "password": "anny123",
+      "favouriteNews": [
+        {
+          "source": {
+            "id": "engadget",
+            "name": "Engadget"
+          },
+          "author": "Kris Holt",
+          "title": "Facebook and Instagram’s news blackout in Canada starts today",
+          "description": "As promised, Meta\r\n has begun blocking news content in Canada. Starting today, Facebook\r\n and Instagram\r\n users in the country will no longer be able to view or share news links or see videos and photos posted by publishers and broadcasters. The company, whic…",
+          "url": "https://www.engadget.com/facebook-and-instagrams-news-blackout-in-canada-starts-today-182139785.html",
+          "urlToImage": "https://s.yimg.com/uu/api/res/1.2/g3m1MzFQ57pEF202yXffSQ--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-images/2020-02/57b39e80-4ec3-11ea-bdbc-bf356bea768e.cf.jpg",
+          "publishedAt": "2023-08-01T18:21:39Z",
+          "content": "As promised, Meta\r\n has begun blocking news content in Canada. Starting today, Facebook\r\n and Instagram\r\n users in the country will no longer be able to view or share news links or see videos and pho… [+1502 chars]"
+        },
+        {
+          "source": {
+            "id": "engadget",
+            "name": "Engadget"
+          },
+          "author": "Mariella Moon",
+          "title": "Google is reportedly testing an AI tool that can generate news articles",
+          "description": "Google is testing a new AI technology codenamed \"Genesis\" that can generate news articles, according to The New York Times. The tech giant has reportedly demonstrated the tool not just for The Times, but also for executives at The Washington Post and News Cor…",
+          "url": "https://www.engadget.com/google-is-reportedly-testing-an-ai-tool-that-can-generate-news-articles-054602544.html",
+          "urlToImage": "https://s.yimg.com/uu/api/res/1.2/bYdQJFcdoqTuE_102ynQew--~B/Zmk9ZmlsbDtoPTYzMDtweW9mZj0wO3c9MTIwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2023-07/f2a5e070-26b4-11ee-bffb-655df49b92b8.cf.jpg",
+          "publishedAt": "2023-07-20T05:46:02Z",
+          "content": "Google is testing a new AI technology codenamed \"Genesis\" that can generate news articles, according to The New York Times. The tech giant has reportedly demonstrated the tool not just for The Times,… [+1682 chars]"
+        }
+      ],
       "id": 2
     }
   ]

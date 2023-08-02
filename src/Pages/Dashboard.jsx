@@ -15,6 +15,7 @@ export default function Dashbord(){
     return(
         <div className={styles.Dashbord_mainDiv}>
             <h1>News</h1>
+            <hr />
             <div className={styles.Dashbord_NewsDiv}>
                 {
                     isLoading?

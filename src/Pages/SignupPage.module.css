@@ -21,3 +21,19 @@ input{
     font-size: 18px;
     border-radius: 5px;
 }
+
+@media only screen and (max-width:600px){
+    .SignupPage_mainDiv{
+        width: 70%;
+    }
+
+    h1{
+        font-size: larger;
+    }
+}
+
+@media only screen and (max-width:430px){
+    .SignupPage_mainDiv{
+        width: 80%;
+    }
+}

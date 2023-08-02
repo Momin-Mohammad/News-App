@@ -1,5 +1,5 @@
 import { url } from "../../utils";
-import { getAllUser, getAllUsersFailure, getUserLoggedIn, loginSucc, removeUser } from "./user.types";
+import { addToFav, getAllUser, getAllUsersFailure, getUserLoggedIn, loginSucc, removeUser } from "./user.types";
 import axios from "axios";
 
 
@@ -21,7 +21,7 @@ export const signupAction = (userData)=>()=>{
 }
 
 export const loginAction = (user)=>(dispatch)=>{
-    localStorage.setItem("userLoggedIn",user);
+    localStorage.setItem("userLoggedIn",JSON.stringify(user));
     dispatch({type:loginSucc,payload:user});
     window.location.assign("/");
 }

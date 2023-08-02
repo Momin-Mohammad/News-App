@@ -15,7 +15,8 @@ export default function SignupPage(){
         let userData = {
             name : name,
             email : email,
-            password : password
+            password : password,
+            favouriteNews:[]
         }
 
         if(allUsers.length){
