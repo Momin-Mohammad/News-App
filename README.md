@@ -2,16 +2,15 @@
 A simple application to display news from India.
 
 ## Deployed Link : [News App](https://theeasynews.netlify.app/)
-### NOTE: For getting data of users and news added to favourites by logged in user, Json server is used. 
-### In order to run the application properly, you need to run the json server by running "npm run server" command from the command line.
 
- ## How to start the application?
- 1. Clone this repository into your local system.
- 2. Navigate to the required directory where the react app is installed.
- 3. Run the command "npm install"(This will install all the required dependencies).
- 4. Run the command "npm start" to start the react app.
- 5. In the new terminal, navigate to the directory and run the command "npm run server". This will start the json server
- The application is ready to use.
+ ## Walk through the application :
+ 1. The user needs to login first to access Dashboard and Favourite page. If the user has not signed in than he/she needs to sign in first.
+ 2. Once the user is logged in he/she will be directed to the Dashboard and can see the user name in the navbar with a logout button.
+ 3. On the Dashboard all the news are displayed using the gnews.io API. On clicking on a particular news the user can view full news article on a new page.
+    Also at the end of the news article there is link present to view news article source.
+ 4. On the Dashboard user can add news article to his/her favourites by clicking on the heart icon.
+ 5. All the favourite news selected can be seen on the favourites page. This page content will be different for each user.
+ 6. User can log out by clicking the logout button from the Navbar.
 
 ## Features:
 1. Login and Signup
