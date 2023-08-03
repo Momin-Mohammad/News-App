@@ -9,7 +9,7 @@ export default function Favourites(){
     const [fav,setFav] = useState([]);
 
     useEffect(()=>{
-        axios.get(`${url}/users/${userLoggedIn.id}`)
+        axios.get(`${url}/${userLoggedIn.id}`)
         .then(res=>setFav(res.data.favouriteNews))
         .catch(err=>console.log(err));
     },[])

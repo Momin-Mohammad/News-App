@@ -4,14 +4,14 @@ import axios from "axios";
 
 
 export const getAllUsersAction = ()=>(dispatch)=>{
-    axios.get(`${url}/users`)
+    axios.get(url)
    .then(res=>
     dispatch({type:getAllUser,payload:res.data}))
    .catch(err=>dispatch({type:getAllUsersFailure,payload:err}))
 }
 
 export const signupAction = (userData)=>()=>{
-    axios.post(`${url}/users`,userData)
+    axios.post(`${url}`,userData)
     .then(res=>{
             alert("User Registered successfully")
             getAllUsersAction();

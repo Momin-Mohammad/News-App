@@ -4,7 +4,44 @@
       "name": "Mohammad Momin",
       "email": "momin@gmail.com",
       "password": "momin123",
-      "favouriteNews": [],
+      "favouriteNews": [
+        {
+          "title": "Viral: AI imagines Oppenheimer actors at an Indian wedding, see pictures",
+          "description": "Trending News: AI-generated pictures of actors from Christopher Nolan's new film \"Oppenheimer\" at an Indian wedding have gone viral on social media. The images creat",
+          "content": "Christopher Nolan's new film \"Oppenheimer\" has captivated audiences with its brilliance across the world. Considering its popularity, an Instagram account named \"Psychedelic Art\" recently shared AI-generated pictures of \"Oppenheimer\" actors at a live... [1341 chars]",
+          "url": "https://timesofindia.indiatimes.com/etimes/trending/viral-ai-imagines-oppenheimer-actors-at-an-indian-wedding-see-pictures/articleshow/102354243.cms",
+          "image": "https://static.toiimg.com/thumb/msid-102354526,width-1070,height-580,imgsize-51204,resizemode-6,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+          "publishedAt": "2023-08-02T14:30:00Z",
+          "source": {
+            "name": "Times of India",
+            "url": "https://timesofindia.indiatimes.com"
+          }
+        },
+        {
+          "title": "Today’s Top News Headlines and Latest News at 8:30 pm on 2 August 2023",
+          "description": "From the Supreme Court directing police to ensure protests over violence in Haryana's Nuh are peaceful, to Russian troops once again hammering Ukraine's ports with strikes, we bring you the top news this evening.",
+          "content": "The top news today comes from Haryana's Nuh, where communal clashes that broke out during a procession taken out by Bajrang Dal and Vishwa Hindu Parishad on Monday have left six persons dead and over 50 injured till now. Chief Minister Manohar Lal Kh... [4868 chars]",
+          "url": "https://indianexpress.com/audio/expresso-news-update/todays-top-news-headlines-and-latest-news-at-830-pm-on-2-august-2023/8872949/",
+          "image": "https://images.indianexpress.com/2021/09/Expresso-News-Mobile-4.jpg",
+          "publishedAt": "2023-08-02T15:00:06Z",
+          "source": {
+            "name": "The Indian Express",
+            "url": "https://indianexpress.com"
+          }
+        },
+        {
+          "title": "Rajasthan news: Section 144 imposed in Alwar, Bharatpur districts after youths ransack highway shops",
+          "description": "Section 144 imposed in Alwar and Bharatpur districts of Rajasthan after communal clashes in neighboring Haryana",
+          "content": "The district administration of Rajasthan’s Alwar and Bharatpur has decided to impose Section 144 in which the gathering of four or more people are not allowed after reports of violence were reported immediately after the recent communal clashes erupt... [1741 chars]",
+          "url": "https://www.livemint.com/news/india/rajasthan-news-section-144-imposed-in-alwar-bharatpur-districts-after-youths-ransack-highway-shops-11690977846724.html",
+          "image": "https://www.livemint.com/lm-img/img/2023/08/02/600x338/Alwar_1690979211766_1690979211941.jpg",
+          "publishedAt": "2023-08-02T18:30:00Z",
+          "source": {
+            "name": "Livemint",
+            "url": "https://www.livemint.com"
+          }
+        }
+      ],
       "id": 1
     },
     {

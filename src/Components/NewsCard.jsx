@@ -12,7 +12,7 @@ export default function NewsCard({ele}){
     const addToFavourites=async()=>{
         let favNews = [];
         try{
-       await axios.get(`${url}/users/${userLoggedIn.id}`)
+       await axios.get(`${url}/${userLoggedIn.id}`)
         .then(res=>{favNews=res.data.favouriteNews}).catch(err=>console.log(err))
         }catch(err){
             console.log(err)
@@ -21,7 +21,7 @@ export default function NewsCard({ele}){
         let data ={
             favouriteNews : [...favNews,ele]
         }
-    axios.patch(`${url}/users/${userLoggedIn.id}`,data)
+    axios.patch(`${url}/${userLoggedIn.id}`,data)
     .then(res=>console.log(res.data))
     .catch(err=>console.log(err));
     alert("Added to Favourites")
