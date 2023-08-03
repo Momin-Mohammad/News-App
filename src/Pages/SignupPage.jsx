@@ -2,13 +2,15 @@ import { useEffect, useState } from "react";
 import styles from "./SignupPage.module.css";
 import { useDispatch, useSelector } from "react-redux";
 import { getAllUsersAction, signupAction } from "../Redux/User/user.actions";
+import { useNavigate } from "react-router-dom";
 
 export default function SignupPage(){
     const allUsers = useSelector(store=>store.userReducer.users);
     const [name,setName] = useState("");
     const [email,setEmail] = useState("");
     const [password,setPassword] = useState("");
-    const dispatch = useDispatch()
+    const dispatch = useDispatch();
+    const navigate = useNavigate();
 
     const signupUser = (e)=>{
         e.preventDefault();
@@ -23,13 +25,13 @@ export default function SignupPage(){
             let findUser = allUsers?.filter((ele)=> ele.email === email);
             if(findUser.length > 0){
                 alert("User already exists. Please Log in");
-                window.location.assign("/login")
             }else{
-                dispatch(signupAction(userData)); 
+                dispatch(signupAction(userData));
             }
         }else{
         dispatch(signupAction(userData));
         }
+        navigate("/login")
     }
 
     useEffect(()=>{

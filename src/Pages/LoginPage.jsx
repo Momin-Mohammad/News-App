@@ -2,12 +2,14 @@ import { useEffect, useState } from "react";
 import styles from "./SignupPage.module.css";
 import { useDispatch, useSelector } from "react-redux";
 import { getAllUsersAction, loginAction } from "../Redux/User/user.actions";
+import { useNavigate } from "react-router-dom";
 
 export default function LoginPage(){
     const allUsers = useSelector(store=> store.userReducer.users);
     const [email,setEmail] = useState("");
     const [password,setPassword] = useState("");
-    const dispatch = useDispatch()
+    const dispatch = useDispatch();
+    const navigate = useNavigate();
 
     const loginUser = (e)=>{
         e.preventDefault(); 
@@ -17,13 +19,14 @@ export default function LoginPage(){
             if(findUser[0]?.password === password){
                 localStorage.setItem("userLoggedIn",findUser[0]?.name)
                 dispatch(loginAction(findUser[0]));
+                window.location.assign("/");
             }else{
                 alert("Wrong Password");
                 setPassword("");
             }
         }else{
             alert("User not found. Please sign up");
-            window.location.assign("/signup")
+            navigate("/signup")
         }
         
     }

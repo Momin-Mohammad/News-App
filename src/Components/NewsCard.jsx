@@ -1,4 +1,4 @@
-import { useNavigate, useSearchParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import styles from "./NewsCard.module.css";
 import {AiFillHeart} from "react-icons/ai";
 import { useEffect, useState } from "react";

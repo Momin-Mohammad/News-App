@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import styles from "./Navbar.module.css";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
@@ -6,11 +6,12 @@ import { removeUserAction } from "../Redux/User/user.actions";
 export default function Navbar(){
     const user = JSON.parse(localStorage.getItem("userLoggedIn"));
     const dispatch = useDispatch();
+    const navigate = useNavigate();
     
     const logoutUser = ()=>{
         localStorage.removeItem("userLoggedIn")
         dispatch(removeUserAction);
-        window.location.assign("/login");
+        navigate("/login");
     }
 
     return(
